@@ -40,44 +40,21 @@
 # included no matter where in the repository folder they are
 # located unless you explicitly ignore that folder
 
-# Stata
-!/**/*.do
-!/**/*.ado
-
 # R
 !/**/*.R
 !/**/*.Rmd
 !/**/*.Rproj
-
-# LaTeX
-!/**/*.tex
-!/**/*.bib
-
-# Python
-!/**/*.py
-!/**/*.ipynb
-# Still ignore .ipynb files in checkpoint folders
-.ipynb_checkpoints
-
-# Matlab
-!/**/*.m
+!Rproj.user
 
 # Markdown
 !/**/*.md
 
-# Julia
-!/**/*.jl
-
-#######################
-# Include some additional file formats in any output folder. You might have
-# to change the name of the Output folder to whatever it is called in your
-# project, but we strongly recommend that you only include these files in
-# a subset of the folders where you are certain no private data is ever stored.
-!/**/Output/**/*.txt
-!/**/Output/**/*.csv
-!/**/Output/**/*.xml
-!/**/Output/**/*.eps
-!/**/Output/**/*.svg
+# Outputs
+!/**/*.csv
+!/**/*.png
+!/**/*.eps
+!/**/*.svg
+!/**/*.txt
 
 #######################
 # Include all the files with passwords or tokens here. All files named
